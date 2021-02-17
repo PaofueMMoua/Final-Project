@@ -90,6 +90,9 @@ fa-discord {
   color: blue;
   font-size: 30px;
 }
+.Picture-pic {
+  height: 200px;
+}
 /* Starting the About Page */
 .about-info {
   display: flex;
@@ -116,6 +119,11 @@ fa-discord {
   height: 250px;
   width: 910px;
   margin: 0px 0px 0px 5px;
+}
+
+.pics-image {
+  height: 150px;
+  width: flex;
 }
 /* Starting the Contact page */
 .Contact-Info {
