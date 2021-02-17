@@ -6,12 +6,24 @@ body {
 
 .head {
   width: flex;
-  height: 150px;
+  height: 70px;
+  display: flex;
 }
-
+.filler {
+  height: 250px;
+  width: 155px;
+  color: transparent;
+}
 .head_img {
   width: flex;
+  height: 250px;
+  float: top;
+  flex: center;
+}
+.head-img-2 {
+  width: flex;
   height: flex;
+  color: rgba(0, 0, 0, 0.507)
 }
 /* This is the Navigation Bar */
 .nav_bar {
@@ -56,15 +68,16 @@ a {
 
 .aside {
   background-color: rgba(255, 255, 255, 1);
-  height: 510px;
-  width: 50%;
+  width: 99%;
   /* background-color: #FFF; */
-  margin: 10px 5px 5px 5px;
+  margin: 5px 0px 5px 5px;
+  float: right;
+}
+.Main-p {
   float: right;
 }
 
 footer {
-  height: 190px;
   background-color: #fff;
   margin: 5px 5px 5px 0px;
   clear: both;
@@ -75,10 +88,7 @@ footer {
   color: red;
 } */
 /* For the stuff on the left */
-.left {
-  width: 45%;
-  float: left;
-}
+
 /* The Headers and the paragraphs */
 h1 {
   font-size: 15px;
