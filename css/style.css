@@ -75,6 +75,8 @@ a {
 }
 .Main-p {
   float: right;
+  height: 150px;
+  width:150px;
 }
 
 footer {
