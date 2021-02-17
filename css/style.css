@@ -8,6 +8,7 @@ body {
   width: flex;
   height: 70px;
   display: flex;
+  color: transparent;
 }
 .filler {
   height: 250px;
@@ -18,21 +19,49 @@ body {
   width: flex;
   height: 250px;
   float: top;
-  flex: center;
+  flex: center; 
+  background-color: transparent;
+  color: transparent;
 }
-.head-img-2 {
+
+
+  video#bgvideo {
+    position:relative;
+    display: flex;
+    top: 0%;
+    left: 50%;
+    min-width: 150px;
+    min-height: 150px;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(placeholder.jpg) no-repeat;
+    /* background-size: cover; */
+    color: transparent;
+    background-color: transparent;
+    }
+
+.Space {
+  height: 1000px;
+}
+/* .head-img-2 {
   width: flex;
   height: flex;
   color: rgba(0, 0, 0, 0.507);
-}
+} */
 /* This is the Navigation Bar */
 .nav_bar {
-  display: solid;
+  display: transparent;
   height: 100px;
   background: transparent;
-  margin: 40px;
+  margin: 100px 40px 40px 40px;
   position: sticky;
   top: 0px;
+  background-color: transparent;
 }
 
 #nav-item {
@@ -83,6 +112,7 @@ footer {
   background-color: #fff;
   margin: 5px 5px 5px 0px;
   clear: both;
+  height: 150px;
 }
 /* To control the links */
 /* a:link {
@@ -124,7 +154,7 @@ fa-discord {
   background-color: #fff;
   /* background-image: ; */
   height: 250px;
-  width: 910px;
+  width: flex;
   margin: 0px 0px 0px 5px;
 }
 
@@ -132,12 +162,41 @@ fa-discord {
   height: 150px;
   width: flex;
 }
+
 /* Starting the Contact page */
 .Contact-Info {
   background-color: #fff;
   height: 400px;
 }
+
 .form {
   background-color: #fff;
   margin-top: 10px;
+}
+
+.colum-1 {
+  float: left;
+  width: 50%;
+}
+
+.colum-2 {
+  float: right;
+}
+
+.text-box {
+  height: 150px;
+  width: 150px;
+}
+
+/* Social Media */
+.Icon {
+  height:50px;
+}
+.Map {
+  float: right;
+}
+
+.left-2 {
+  float: left;
+  width: 50%;
 }

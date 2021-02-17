@@ -16,12 +16,13 @@
 
   <body>
     <div class="head" id="home">
-      <div class="filler"></div>
-      <div>
-        <img class="head_img" src="./img/Hero Img.png" alt="Keyboard" />
-        <div class="head-img-2"></div>
+      <div class="head" id="home">
+        <div id="hero">
+          <video playsinline autoplay muted loop id="bgvideo" width="flex" height="250px">
+          <source src="./videos/Areth's theme.mkv" type="video/mp4">
+          </video>
+        </div>
       </div>
-      <div class="filler"></div>
     </div>
     <div class="nav_bar">
       <a class="index" id="nav-item" href="index.html">Home</a>
@@ -32,7 +33,16 @@
       <h1>
         Hello if you need any help with My website I would be happy to help
       </h1>
-      <p></p>
+      <div class="colum-1">
+      <ul>
+        <li><p>Email : Name@gmail.com</p></li>
+        <li><p>Phone number : +1 559-500-3305</p></li>
+        <li><p>Address : 700 Van Ness Ave, Fresno, CA 93721</p></li>
+      </ul>
+    </div>
+      <div class="colum-2">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604377581877!2d-119.78794368471199!3d36.73206167996259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5d033c593%3A0xaaddea0558f9026c!2sGeekwise%20Academy!5e0!3m2!1sen!2sus!4v1613596633469!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
     </div>
     <form action="" method="" class="form">
       <label for="fname">First Name:</label>
@@ -41,7 +51,9 @@
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lname" /> <br />
       <br />
+      <!-- <input type="text" id="text-box"><br> -->
       <input type="submit" value="Submit" />
+      <input type="reset">
     </form>
   </body>
 </html>
