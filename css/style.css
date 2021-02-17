@@ -23,7 +23,7 @@ body {
 .head-img-2 {
   width: flex;
   height: flex;
-  color: rgba(0, 0, 0, 0.507)
+  color: rgba(0, 0, 0, 0.507);
 }
 /* This is the Navigation Bar */
 .nav_bar {
@@ -76,7 +76,7 @@ a {
 .Main-p {
   float: right;
   height: 150px;
-  width:150px;
+  width: 150px;
 }
 
 footer {
@@ -106,22 +106,17 @@ fa-discord {
   height: 200px;
 }
 /* Starting the About Page */
-.about-info {
-  display: flex;
-  width: flex;
-  background-color: #000;
-}
 .aboutP {
   background-color: #fff;
-  height: 400px;
-  width: 450px;
+  height: flex;
+  width: flex;
   margin: 0px 5px 5px 5px;
 }
 
 .music {
   background-color: #fff;
-  width: 450px;
-  height: 400px;
+  width: flex;
+  height: flex;
   margin: 0px 5px 5px 5px;
 }
 
