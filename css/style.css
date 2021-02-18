@@ -4,6 +4,16 @@ body {
   background-color: #000;
 }
 
+.content {
+  width: 80%;
+  min-width: 0;
+  margin: 0 auto;
+  border: white 4px solid;
+  background: gray;
+  background: lightgray;
+  overflow: hidden;
+}
+
 .head {
   width: flex;
   height: 70px;
@@ -25,48 +35,50 @@ body {
 }
 
 
-  video#bgvideo {
-    position:relative;
-    display: flex;
-    top: 0%;
-    left: 50%;
-    min-width: 150px;
-    min-height: 150px;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(placeholder.jpg) no-repeat;
-    /* background-size: cover; */
-    color: transparent;
-    background-color: transparent;
-    }
+video#bgvideo {
+  position:relative;
+  display: flex;
+  top: 0%;
+  left: 50%;
+  min-width: 150px;
+  min-height: 150px;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(placeholder.jpg) no-repeat;
+  /* background-size: cover; */
+  color: transparent;
+  background-color: transparent;
+}
 
 .Space {
   height: 1000px;
 }
-/* .head-img-2 {
-  width: flex;
-  height: flex;
-  color: rgba(0, 0, 0, 0.507);
-} */
-/* This is the Navigation Bar */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .nav_bar {
-  display: transparent;
-  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
   background: transparent;
-  margin: 100px 40px 40px 40px;
+  /* margin: 100px 40px 40px 40px; */
   position: sticky;
   top: 0px;
-  background-color: transparent;
+  background-color: white;
+  box-shadow: 0px 5px 10px 1px;
 }
 
-#nav-item {
+.nav-item {
   border: none;
-  background-color: rgba(147, 135, 125, 1);
+  /* background-color: rgba(147, 135, 125, 1); */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -75,51 +87,95 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
-  border-radius: 50px;
+  /* border-radius: 50px; */
+  color: black;
+  border-right: 1px solid black;
 }
 
-a {
-  color: pink;
+.nav_bar p {
+  margin-right: 15px;
 }
 
-/* This starts the sections for the Main Pg */
+.nav-item:hover {
+  transform: scale(1.1);
+  font-weight: bolder;
+}
+
 .section {
-  height: 250px;
-  background-color: #fff;
-  margin: 5px 0px 5px 5px;
+  width: 100%;
+  min-height: 100px;
+  background: white;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 5px 10px 1px;
 }
 
-.article {
-  height: 250px;
-  background-color: #fff;
-  margin: 5px 0px 5px 5px;
+.section h1 {
+  height: fit-content;
+  margin-bottom: 0;
 }
 
-.aside {
-  background-color: rgba(255, 255, 255, 1);
-  width: 99%;
-  /* background-color: #FFF; */
-  margin: 5px 0px 5px 5px;
-  float: right;
+.drawing-preview-container,
+.music-preview-container,
+.about-me-preview-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.Main-p {
-  float: right;
+
+.about-images {
+  flex-wrap: wrap;
+}
+
+.about-images img {
+  margin-top: 10px;
+}
+
+.drawing-preview-container img {
+  width: 20%;
+  border: solid 1px black;
+}
+
+.about-me-preview-container {
+  margin-top: 15px;
+}
+
+.about-me-preview-container div {
   height: 150px;
   width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.about-me-preview-container div img {
+  height: 100%;
+  width: fit-content;
+}
+
+.about-me-preview-container p {
+  width: 30%;
 }
 
 footer {
-  background-color: #fff;
-  margin: 5px 5px 5px 0px;
-  clear: both;
-  height: 150px;
+  padding: 10px;
 }
-/* To control the links */
-/* a:link {
-  background-color: transparent;
-  color: red;
-} */
-/* For the stuff on the left */
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
 
 /* The Headers and the paragraphs */
 h1 {
@@ -191,6 +247,7 @@ fa-discord {
 /* Social Media */
 .Icon {
   height:50px;
+  border-radius: 50%;
 }
 .Map {
   float: right;

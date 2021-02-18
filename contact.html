@@ -1,59 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Final Project</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="index" href="index.html" />
-    <link rel="contact" href="contact.html" />
-    <link rel="about" href="about.html" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="head" id="home">
-      <div class="head" id="home">
-        <div id="hero">
-          <video playsinline autoplay muted loop id="bgvideo" width="flex" height="250px">
-          <source src="./videos/Areth's theme.mkv" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Project</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="index" href="index.html" />
+  <link rel="contact" href="contact.html" />
+  <link rel="about" href="about.html" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+<body>
+  <div class="hero">
+    <img src="./img/piano.gif" />
+  </div>
+  <div class="content">
     <div class="nav_bar">
-      <a class="index" id="nav-item" href="index.html">Home</a>
-      <a class="about" id="nav-item" href="about.html">About</a>
-      <a class="contact" id="nav-item" href="contact.html">Contact</a>
+      <div>
+        <a class="index nav-item" href="index.html">Home</a>
+        <a class="about nav-item" href="about.html">About</a>
+        <a class="contact nav-item" href="contact.html">Contact</a>
+      </div>
+      <p>Paofue Moua</p>
+
     </div>
-    <div class="Contact-Info">
+    <div class="section">
       <h1>
         Hello if you need any help with My website I would be happy to help
       </h1>
-      <div class="colum-1">
-      <ul>
-        <li><p>Email : Name@gmail.com</p></li>
-        <li><p>Phone number : +1 559-500-3305</p></li>
-        <li><p>Address : 700 Van Ness Ave, Fresno, CA 93721</p></li>
-      </ul>
+      <div style="width: 100%;margin-top: 30px;">
+        <div class="colum-1">
+          <ul>
+            <li>
+              <p>Email : Name@gmail.com</p>
+            </li>
+            <li>
+              <p>Phone number : +1 559-500-3305</p>
+            </li>
+            <li>
+              <p>Address : 700 Van Ness Ave, Fresno, CA 93721</p>
+            </li>
+          </ul>
+        </div>
+        <div class="colum-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604377581877!2d-119.78794368471199!3d36.73206167996259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5d033c593%3A0xaaddea0558f9026c!2sGeekwise%20Academy!5e0!3m2!1sen!2sus!4v1613596633469!5m2!1sen!2sus"
+            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
     </div>
-      <div class="colum-2">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604377581877!2d-119.78794368471199!3d36.73206167996259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5d033c593%3A0xaaddea0558f9026c!2sGeekwise%20Academy!5e0!3m2!1sen!2sus!4v1613596633469!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="section">
+      <p>If you would like to reach out to me, please complete the form below.</p>
+      <div>
+        <form>
+          <div class="form-input-container">
+            <div class="label-container">
+              <label for="fname">Full Name</label>
+            </div>
+            <input type="text" id="fname" name="fname" /> <br />
+          </div>
+          <div class="form-input-container">
+            <div class="label-container">
+              <label for="email">Email</label>
+            </div>
+            <input type="text" id="email" name="email" /> <br />
+          </div>
+          <div class="form-input-container">
+            <div class="label-container">
+              <label for="phone">Phone</label>
+            </div>
+            <input type="text" id="phone" name="phone" /> <br />
+          </div>
+          <div class="form-input-container">
+            <div class="label-container">
+              <label for="msg">Message</label>
+            </div>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+          </div>
+          <div class="form-btn">
+            <input type="submit" value="Submit" />
+            <input type="reset">
+          </div>
+        </form>
+      </div>
     </div>
-    </div>
-    <form action="" method="" class="form">
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" /> <br />
-      <br />
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lname" /> <br />
-      <br />
-      <!-- <input type="text" id="text-box"><br> -->
-      <input type="submit" value="Submit" />
-      <input type="reset">
-    </form>
-  </body>
+    <footer class="section">
+      <div>
+        <a href="https://www.facebook.com" target="_blank"><img class="Icon" src="./img/facebook-brands.svg" alt="Facebook" /></a>
+          <a href="https://www.discord.com" target="_blank"><img class="Icon" src="./img/discord-brands.svg" alt="Discord" /></a>  
+      </div>
+      <p>Paofue's Website ™</p>
+    </footer>
+  </div>
+</body>
+
 </html>

@@ -4,55 +4,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="index" href="./index.html" />
-    <link rel="contact" href="./contact.html" />
-    <link rel="about" href="./about.html" />
+    <link rel="index" href="index.html" />
+    <link rel="contact" href="contact.html" />
+    <link rel="about" href="about.html" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
-  </head>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 
   <body>
-    <div class="head" id="home">
-      <div id="hero">
-        <video playsinline autoplay muted loop id="bgvideo" width="flex" height="250px">
-        <source src="./videos/Areth's theme.mkv" type="video/mp4">
-        </video>
-      </div>
+    <div class="hero">
+      <img src="./img/piano.gif" />
     </div>
-    <div class="nav_bar">
-      <a class="index" id="nav-item" href="index.html">Home</a>
-      <a class="about" id="nav-item" href="about.html">About</a>
-      <a class="contact" id="nav-item" href="contact.html">Contact</a>
-    </div>
-    <div class="about-info">
-      <div class="aboutP" id="about-info">
-        <i class="fab fa-discord"></i>
-        <h2>Information about myself</h2>
-        <p>
-          Hello I am Paofue I am a 14 year old freshmen who loves music and
-          games. I have 9 siblings, 3 dogs, 6 birds, and a lot of fish.
-        </p>
+    <div class="content">
+      <div class="nav_bar">
+        <div>
+          <a class="index nav-item"  href="index.html">Home</a>
+          <a class="about nav-item" href="about.html">About</a>
+          <a class="contact nav-item" href="contact.html">Contact</a>
+        </div>
+        <p>Paofue Moua</p>
+        
       </div>
-      <div class="music">
-        <h1>This is the music that I make for fun and learn on my keyboard.</h1>
-        <audio controls autoplay muted>
-          <source src="./videos/Areth's theme.mkv" type="audio/mpeg" />
-        </audio>
-        <audio controls autoplay muted>
-          <source
-            src="./videos/Your Name OST - Sparkle (2020 version).mp4"
-            type="audio/mpeg"
-          />
-        </audio>
-        <img class="music-sheets" />
+      <div class="aside section">
+        <h1>About Me</h1>
+        <div class="about-me-preview-container">
+          <div>
+            <img src="./img/Logo.png" />
+          </div>
+          <p>
+            Hello. My name is Paofue Mark Moua. I am a 14 year old who enjoys music, games, drawing, and programing. I can play the keyboard, flute, and guitar. 
+            I have 5 sisters and 4 brothers. I am the second youngest child. I was born in Clovis, CA. I am currently a freshman at Clovis High School. We have 
+            3 dogs, a turtle, a tortoise, 5 parakeets, 33 chickens, 2 ducks, and a lot of fishes. 
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="pics">
-      <h1>These are some of the picture that I draw for fun</h1>
-      <img class="pics-image" src="./img/Anime2.png" alt=" Anime Girl" />
+      <div class="pictures section">
+        <h1>Drawings</h1>
+        <p>Drawings that I have created.</p>
+        <div class="drawing-preview-container about-images">
+          <img src="./img/1.png" />
+          <img src="./img/Anime2.png" />
+          <img src="./img/cherry blossem tree.png" />
+          <img src="./img/For Rahaf..png" />
+          <img src="./img/kallen.png" />
+          <img src="./img/kanshala'spic.png" />
+          <img src="./img/Screenshot 2020-09-09 17.34.18 (2).png" />
+          <img src="./img/Toothless 2.0.png" />
+        </div>
+      </div>
+      <div class="article section">
+        <h1>Music</h1>
+        <p>Music that I listen to.</p>
+        <div class="music-preview-container">
+          <audio controls autoplay muted>
+            <source
+              src="videos/Fly Me To The Moon (Remastered).mp4"
+              type="audio/mpeg"
+            />
+          </audio>
+          <audio controls autoplay muted>
+            <source
+              src="./Your Name OST - Sparkle (2020 version).mp4"
+              type="audio/mpeg"
+            />
+          </audio>
+          <audio controls autoplay muted>
+            <source src="videos/Jason Mraz & Colbie Caillat-Lucky[Lyrics].mp4" type="audio/mpeg"/>
+          </audio>
+          <audio>
+            <source src="videos/Numb [Official Music Video] - Linkin Park.mp4" type="audio/mpeg"/>
+          </audio>
+        </div>
+      </div>
+      <footer class="section">
+        <div>
+          <a href="https://www.facebook.com" target="_blank"><img class="Icon" src="./img/facebook-brands.svg" alt="Facebook" /></a>
+          <a href="https://www.discord.com" target="_blank"><img class="Icon" src="./img/discord-brands.svg" alt="Discord" /></a>  
+        </div>
+        <p>Paofue's Website ™</p>
+      </footer>
     </div>
   </body>
 </html>
