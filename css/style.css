@@ -219,6 +219,14 @@ fa-discord {
   width: flex;
 }
 
+/* .Extra-space-for-pictures {
+  height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+} */
 /* Starting the Contact page */
 .Contact-Info {
   background-color: #fff;
